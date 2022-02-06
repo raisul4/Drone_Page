@@ -1,0 +1,395 @@
+.root {
+  /* border: 1px solid black; */
+  height: 956px;
+  width: 1600px;
+  margin: auto;
+  background-color: rgb(121, 113, 113);
+}
+.left,
+.right {
+  /* border: 1px solid red; */
+  height: 97%;
+  width: 49%;
+  float: left;
+  margin: 5px;
+}
+.left {
+  /* margin: 30px 25px; */
+  width: 44%;
+  padding-left: 10px;
+  color: white;
+  font-size: 17px;
+}
+.left h1 {
+  color: rgb(19, 212, 116);
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Rubik Beastly", cursive;
+  font-family: "Short Stack", cursive;
+  font-family: "Supermercado One", cursive;
+  text-align: center;
+}
+.left h2 {
+  color: rgb(255, 251, 13);
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Rubik Beastly", cursive;
+  font-family: "Short Stack", cursive;
+  font-family: "Supermercado One", cursive;
+  font-size: 30px;
+}
+.right {
+  width: 53%;
+  text-align: center;
+  color: rgb(255, 251, 13);
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Rubik Beastly", cursive;
+  font-family: "Short Stack", cursive;
+  font-family: "Supermercado One", cursive;
+  font-size: 25px;
+  position: relative;
+}
+/* .right:hover .p1{
+    top: 190px;                 
+}
+.right:hover .p2{
+    top: 197px;                 
+}
+.right:hover .p3{
+    top: 190px;                 
+}
+.right:hover .p4{
+    top: 190px;                 
+}
+.right:hover .p5{
+    top: 190px;                 
+} */
+/* .right:hover .p6{
+    top: 190px;                 
+}
+.p1{ transition-duration: 5.5s;}
+.p2{ transition-duration: 5.5s;}
+.p3{ transition-duration: 5.5s;}
+.p4{ transition-duration: 5.5s;}
+.p5{ transition-duration: 5.5s;}
+.p6{ transition-duration: 5.5s;} */
+.body,
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6 {
+  position: absolute;
+  left: 200px;
+  top: 250px;
+}
+.p1 img {
+  width: 40px;
+}
+.p4 img {
+  width: 210px;
+}
+.p2 img {
+  width: 30px;
+}
+.p3 img {
+  width: 30px;
+}
+.p5 img {
+  width: 22px;
+}
+.p6 img {
+  width: 19px;
+}
+.p1 {
+  left: 247px;
+  top: 340px;
+  z-index: 7;
+}
+.p2 {
+  left: 255px;
+  top: 324px;
+}
+.p3 {
+  left: 251px;
+  top: 347px;
+}
+.p4 {
+  left: 161px;
+  top: 319px;
+  z-index: 4;
+}
+.p5 {
+  z-index: 5;
+  left: 259px;
+  top: 310px;
+}
+.p6 {
+  z-index: 6;
+  left: 260px;
+  top: 307px;
+}
+.right:hover .p4 {
+  animation: Fan 0.01s linear infinite;
+  animation-delay: 0.3s;
+  animation-timing-function: cubic-bezier(0.15, -2, 0.15, -2);
+}
+.right:hover .p5 {
+  animation: Fan 0.015s linear infinite;
+  animation-delay: 0.3s;
+}
+.right:hover .p6 {
+  animation: Fan 0.015s linear infinite;
+  animation-delay: 0.3s;
+}
+@keyframes Fan {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+/* --------------2nd----- */
+.p7,
+.p8,
+.p9,
+.p10,
+.p11,
+.p12 {
+  position: absolute;
+  left: 800px;
+  top: 250px;
+}
+.p7 img {
+  width: 40px;
+}
+.p10 img {
+  width: 210px;
+}
+.p8 img {
+  width: 30px;
+}
+.p9 img {
+  width: 30px;
+}
+.p11 img {
+  width: 22px;
+}
+.p12 img {
+  width: 19px;
+}
+.p7 {
+  left: 619px;
+  top: 340px;
+  z-index: 7;
+}
+.p8 {
+  left: 625px;
+  top: 324px;
+}
+.p9 {
+  left: 626px;
+  top: 347px;
+}
+.p10 {
+  left: 532px;
+  top: 319px;
+  z-index: 4;
+}
+.p11 {
+  z-index: 5;
+  left: 629px;
+  top: 310px;
+}
+.p12 {
+  z-index: 6;
+  left: 629px;
+  top: 307px;
+}
+.right:hover .p10 {
+  animation: Fan 0.01s linear infinite;
+  animation-delay: 0.3s;
+  animation-timing-function: cubic-bezier(0.15, -2, 0.15, -2);
+}
+.right:hover .p11 {
+  animation: Fan 0.015s linear infinite;
+  animation-delay: 0.3s;
+}
+.right:hover .p12 {
+  animation: Fan 0.015s linear infinite;
+  animation-delay: 0.3s;
+}
+@keyframes Fan {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+/* 3rd part css */
+.p13,
+.p14,
+.p15,
+.p16,
+.p17,
+.p18 {
+  position: absolute;
+  left: 800px;
+  top: 250px;
+}
+.p13 img {
+  width: 40px;
+}
+.p16 img {
+  width: 210px;
+}
+.p14 img {
+  width: 30px;
+}
+.p15 img {
+  width: 30px;
+}
+.p17 img {
+  width: 22px;
+}
+.p18 img {
+  width: 19px;
+}
+.p13 {
+  left: 645px;
+  top: 576px;
+  z-index: 7;
+}
+.p14 {
+  left: 651px;
+  top: 565px;
+}
+.p15 {
+  left: 647px;
+  top: 580px;
+}
+.p16 {
+  left: 557px;
+  top: 555px;
+  z-index: 4;
+}
+.p17 {
+  z-index: 5;
+  left: 655px;
+  top: 550px;
+}
+.p18 {
+  z-index: 6;
+  left: 656px;
+  top: 547px;
+}
+.right:hover .p16 {
+  animation: Fan 0.01s linear infinite;
+  animation-delay: 0.3s;
+  animation-timing-function: cubic-bezier(0.15, -2, 0.15, -2);
+}
+.right:hover .p17 {
+  animation: Fan 0.015s linear infinite;
+  animation-delay: 0.3s;
+}
+.right:hover .p18 {
+  animation: Fan 0.015s linear infinite;
+  animation-delay: 0.3s;
+}
+@keyframes Fan {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+/* part------4 */
+.p-A,
+.p-B,
+.p-C,
+.p-D,
+.p-E,
+.p-F {
+  position: absolute;
+  left: 800px;
+  top: 250px;
+}
+.p-A img {
+  width: 40px;
+}
+.p-D img {
+  width: 210px;
+}
+.p-B img {
+  width: 30px;
+}
+.p-C img {
+  width: 30px;
+}
+.p-E img {
+  width: 22px;
+}
+.p-F img {
+  width: 19px;
+}
+.p-A {
+  left: 211px;
+  top: 576px;
+  z-index: 7;
+}
+.p-B {
+  left: 216px;
+  top: 565px;
+}
+.p-C {
+  left: 216px;
+  top: 580px;
+}
+.p-D {
+  left: 124px;
+  top: 555px;
+  z-index: 4;
+}
+.p-E {
+  z-index: 5;
+  left: 221px;
+  top: 550px;
+}
+.p-F {
+  z-index: 6;
+  left: 221px;
+  top: 547px;
+}
+.right:hover .p-D {
+  animation: Fan 0.01s linear infinite;
+  animation-delay: 0.3s;
+  animation-timing-function: cubic-bezier(0.15, -2, 0.15, -2);
+}
+.right:hover .p-E {
+  animation: Fan 0.015s linear infinite;
+  animation-delay: 0.3s;
+}
+.right:hover .p-F {
+  animation: Fan 0.015s linear infinite;
+  animation-delay: 0.3s;
+}
+@keyframes Fan {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+/* .body{
+    transition-duration: 5s;
+}
+.root:hover .body{
+    top: 100px;
+
+} */
