@@ -393,3 +393,22 @@
     top: 100px;
 
 } */
+.right:hover{
+  animation: bounce 3s linear infinite;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -150px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+.head{
+  color: rgb(235, 235, 10);
+  text-align: center;
+}
